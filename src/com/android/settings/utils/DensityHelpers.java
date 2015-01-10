@@ -1,4 +1,4 @@
-package com.android.settings.util;
+package com.android.settings.utils;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
@@ -7,7 +7,6 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.SystemProperties;
 import android.util.Log;
-import com.android.settings.util.CMDProcessor;
 import android.widget.Toast;
 
 import java.io.BufferedReader;
@@ -18,6 +17,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Date;
 
+import com.android.settings.util.CMDProcessor;
 // don't show unavoidable warnings
 @SuppressWarnings({
         "UnusedDeclaration",
