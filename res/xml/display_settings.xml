@@ -38,6 +38,11 @@
             android:persistent="false"
             android:entries="@array/night_mode_entries"
             android:entryValues="@array/night_mode_values" />
+            
+        <ListPreference
+                android:key="lcd_density"
+                android:title="@string/lcd_density"
+                android:persistent="false" />
 
         <PreferenceScreen
                 android:key="wallpaper"
