@@ -93,6 +93,12 @@
         android:title="@string/status_bar_quick_qs_pulldown_title"
         android:summary="@string/status_bar_quick_qs_pulldown_summary"
         android:defaultValue="true" />
+
+    <Preference
+        android:key="statusbar_notifications"
+        android:fragment="com.android.settings.orion.StatusbarNotifications"
+        android:title="@string/statusbar_notifications_category" />
+
 </PreferenceScreen>
 
 
