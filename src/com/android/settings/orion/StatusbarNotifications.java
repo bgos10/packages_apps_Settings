@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.dirtyunicorns.dutweaks.fragments;
+package com.android.settings.orion;
 
 import android.content.Context;
 import android.content.ContentResolver;
@@ -52,7 +52,7 @@ public class StatusbarNotifications extends SettingsPreferenceFragment implement
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.statusbar_notifications);
+        addPreferencesFromResource(R.xml.status_bar_notifications);
         PreferenceScreen prefSet = getPreferenceScreen();
 
         final ContentResolver resolver = getActivity().getContentResolver();
@@ -90,7 +90,7 @@ public class StatusbarNotifications extends SettingsPreferenceFragment implement
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsLogger.DIRTYTWEAKS;
+        return MetricsLogger.APPLICATION;
     }
 
     @Override

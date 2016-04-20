@@ -416,7 +416,7 @@
     <string name="lcd_density_default">default</string>
     <string name="lcd_density_unsupported">Unsupported</string>
     <string name="lcd_density_restarting_ui">Restarting UI\u2026</string>
-    
+        
     <!-- Force expanded notifications -->
     <string name="force_expanded_notifications_title">Force Expanded Notifications</string>
     <string name="force_expanded_notifications_summary">Available only for apps that support expanded notifications</string>
@@ -436,5 +436,6 @@
     <string name="voicemail_breath_title">Breathing Voicemail</string>
     <string name="voicemail_breath_summary">Will give your voicemail notifications a breathing effect in the statusbar</string>
     <string name="breathing_notifications_category">Breathing Notifications</string>
+    <string name="statusbar_notifications_category">Notifications</string>
 
 </resources>
