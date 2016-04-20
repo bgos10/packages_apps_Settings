@@ -65,8 +65,9 @@ import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.DisplayMetrics;
 import android.util.Log;
+
 import com.android.settings.slim.DisplayRotation;
-import com.android.settings.util.Helpers;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -249,15 +250,13 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         }
 
         mNightModePreference = (ListPreference) findPreference(KEY_NIGHT_MODE);
-        if (mNightModePreference != null) {
-            final UiModeManager uiManager = (UiModeManager) getSystemService(
-                    Context.UI_MODE_SERVICE);
-            final int currentNightMode = uiManager.getNightMode();
-            mNightModePreference.setValue(String.valueOf(currentNightMode));
-            mNightModePreference.setOnPreferenceChangeListener(this);
-        }
-      }
-        
+        final UiModeManager uiManager = (UiModeManager) getSystemService(
+                Context.UI_MODE_SERVICE);
+        final int currentNightMode = uiManager.getNightMode();
+        mNightModePreference.setValue(String.valueOf(currentNightMode));
+        mNightModePreference.setOnPreferenceChangeListener(this);
+    }
+
     private static boolean allowAllRotations(Context context) {
         return Resources.getSystem().getBoolean(
                 com.android.internal.R.bool.config_allowAllRotations);
@@ -658,7 +657,6 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
                 final UiModeManager uiManager = (UiModeManager) getSystemService(
                         Context.UI_MODE_SERVICE);
                 uiManager.setNightMode(value);
-                Helpers.restartSystemUI();
             } catch (NumberFormatException e) {
                 Log.e(TAG, "could not persist night mode setting", e);
             }
