@@ -19,6 +19,7 @@
 -keep class com.android.settings.slim.**
 -keep class com.android.settings.cyanogenmod.*Settings
 -keep class com.android.settings.xenonhd.*Settings
+-keep class com.android.settings.orion.**
 
 # These would be stripped out since they are being created with reflection
 -keep class com.android.settings.dashboard.GenericSwitchToggle { *; }
