@@ -206,8 +206,8 @@
   <string name="dashboard_tileview_dividers_title">Dashboard dividers</string>
   <string name="dashboard_tileview_dividers_summary">Hide dashboard tile dividers</string>
   <!-- Setting checkbox summary for displaying USB debugging notification -->
-  <string name="adb_notify">USB debugging notify</string>
-  <string name="adb_notify_summary">Display a notification when USB debugging is connected</string>
+  <string name="adb_notify">USB hata ayıklama bildirimi</string>
+  <string name="adb_notify_summary">USB hata ayıklama bağlandığında bildirim göster</string>
   <!-- Power menu -->
   <string name="power_menu_title">Güç menüsü</string>
   <string name="power_menu_power_title">Gücü kapat</string>
@@ -239,7 +239,7 @@
   <string name="lockscreen_wallpaper_clear_title">Kilit Ekranı Duvar Kağıdını Sıfırla</string>
   <string name="reset_lockscreen_wallpaper">Varsayılan Olarak Ayarla</string>
   <!-- Hide Lockscreen clock & date -->
-  <string name="hide_lockscreen_items_title">Lockscreen items</string>
+  <string name="hide_lockscreen_items_title">Kilit ekranı öğeleri</string>
   <string name="hide_lockscreen_clock_title">Show lockscreen clock</string>
   <string name="hide_lockscreen_date_title">Show lockscreen date</string>
   <!-- Battery saver color -->
@@ -304,20 +304,20 @@
   <string name="enable_task_manager_title">Görev Yöneticisi</string>
   <string name="enable_task_manager_summary">Enable/Disable action for the task manager button in the expanded statusbar area.</string>
   <!-- About phone screen, OrionOS device maintainer name -->
-  <string name="device_maintainer">Device maintainer</string>
-  <string name="device_maintainers">Device maintainers</string>
+  <string name="device_maintainer">Cihaz bakıcıları</string>
+  <string name="device_maintainers">Cihaz bakıcıları</string>
   <!-- Media art -->
-  <string name="media_art_title">Show media cover art</string>
+  <string name="media_art_title">Medya kapak resmini göster</string>
   <string name="media_art_summary">Enable media cover art on the lockscreen</string>
   <!-- Doze pulse options -->
   <string name="summary_doze_enabled">Etkin</string>
   <string name="summary_doze_disabled">Devre dışı</string>
-  <string name="doze_overwrite_value_title">Overwrite defaults</string>
+  <string name="doze_overwrite_value_title">Varsayılan değerlerin üzerine yaz</string>
   <string name="doze_overwrite_value_summary">Allow override of default values with user config</string>
-  <string name="doze_pulse_title">User configurable settings</string>
-  <string name="doze_pulse_duration_in_title">Fade in</string>
+  <string name="doze_pulse_title">Kullanıcı yapılandırılabilir ayarlar</string>
+  <string name="doze_pulse_duration_in_title">Aydınlat</string>
   <string name="doze_pulse_duration_visible_title">Görünür süresi</string>
-  <string name="doze_pulse_duration_out_title">Fade out</string>
+  <string name="doze_pulse_duration_out_title">Karart</string>
   <string name="doze_trigger_pickup_title">Pick up sensor trigger</string>
   <string name="doze_trigger_pickup_summary_on">Pulse will be triggered by pick up sensor</string>
   <string name="doze_trigger_pickup_summary_off">Pick up sensor will not be utilized as a trigger</string>

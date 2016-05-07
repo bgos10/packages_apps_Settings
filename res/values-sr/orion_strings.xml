@@ -142,8 +142,8 @@
   <string name="show_network_traffic_2000">2000 ms</string>
   <string name="network_traffic_autohide">Аутоматско сакривање</string>
   <string name="network_traffic_autohide_summary">Сакриј саобраћај монитора у одсуству активности</string>
-  <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
-  <string name="network_traffic_color_style">Color style</string>
+  <string name="network_traffic_autohide_threshold">Праг застоја</string>
+  <string name="network_traffic_color_style">Стил боје</string>
   <string name="network_traffic_color_reset">Reset color</string>
   <string name="network_traffic_color_reset_message">Reset network traffic color to default?</string>
   <!-- tap-to-sleep -->
