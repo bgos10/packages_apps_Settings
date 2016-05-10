@@ -14,7 +14,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!--Orion Version-->
-  <string name="orion_version">Orion Version</string>
+  <string name="orion_version">Орион версия</string>
   <string name="orion_version_default">Unknown</string>
   <string name="interface_settings_title">Universe</string>
   <string name="device_info_category">General info</string>
