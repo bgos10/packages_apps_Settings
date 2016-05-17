@@ -100,7 +100,7 @@
   <string name="backlight_timeout_title">Duração da iluminação</string>
   <string name="backlight_timeout_unlimited">Não desligar</string>
   <string name="backlight_summary_disabled">Desactivado</string>
-  <string name="backlight_summary_enabled_with_timeout">Enabled for
+  <string name="backlight_summary_enabled_with_timeout">Activado durante
     <xliff:g id="timeout">%s</xliff:g>
   </string>
   <string name="backlight_summary_enabled">Activado</string>
@@ -196,104 +196,104 @@
   <string name="ime_switcher_notify_summary">Exibir notificação de seletor de método de entrada</string>
   <!-- Dashboard settings -->
   <string name="dashboard_category">Definições do painel de ações</string>
-  <string name="dashboard_columns_title">Dashboard Columns</string>
-  <string name="dashboard_columns_summary">Change the number of columns displayed in the dashboard</string>
-  <string name="dashboard_columns_dialog_title">Select dashboard columns</string>
-  <string name="dashboard_columns_default">One (default)</string>
-  <string name="dashboard_columns_two">Two</string>
-  <string name="dashboard_columns_three">Three</string>
-  <string name="dashboard_tileview_double_lines_title">Dashboard title view</string>
-  <string name="dashboard_tileview_double_lines_summary">Show dashboard tile titles in 2 lines</string>
-  <string name="dashboard_tileview_dividers_title">Dashboard dividers</string>
-  <string name="dashboard_tileview_dividers_summary">Hide dashboard tile dividers</string>
+  <string name="dashboard_columns_title">Colunas do Painel de Controle</string>
+  <string name="dashboard_columns_summary">Alterar o número de colunas exibidas no Painel de Controle</string>
+  <string name="dashboard_columns_dialog_title">Selecione as colunas do Painel de Controle</string>
+  <string name="dashboard_columns_default">Uma (padrão)</string>
+  <string name="dashboard_columns_two">Duas</string>
+  <string name="dashboard_columns_three">Três</string>
+  <string name="dashboard_tileview_double_lines_title">Exibição de título do Painel de Controle</string>
+  <string name="dashboard_tileview_double_lines_summary">Mostrar títulos de telha em 2 linhas</string>
+  <string name="dashboard_tileview_dividers_title">Divisores de painel</string>
+  <string name="dashboard_tileview_dividers_summary">Esconder os divisores de telhas</string>
   <!-- Setting checkbox summary for displaying USB debugging notification -->
-  <string name="adb_notify">USB debugging notify</string>
-  <string name="adb_notify_summary">Display a notification when USB debugging is connected</string>
+  <string name="adb_notify">Notificação de depuração USB</string>
+  <string name="adb_notify_summary">Exibir uma notificação quando a depuração USB estiver conectada</string>
   <!-- Power menu -->
-  <string name="power_menu_title">Power menu</string>
-  <string name="power_menu_power_title">Power off</string>
-  <string name="power_menu_reboot_title">Reboot menu</string>
+  <string name="power_menu_title">Menu de ligar/desligar</string>
+  <string name="power_menu_power_title">Desligar</string>
+  <string name="power_menu_reboot_title">Menu de reinicialização</string>
   <string name="power_menu_screenshot_title">Captura de Ecrâ</string>
-  <string name="power_menu_airplane_title">Airplane mode</string>
-  <string name="power_menu_users_title">User switcher</string>
-  <string name="power_menu_settings_title">Settings shortcut</string>
-  <string name="power_menu_lockdown_title">Device lockdown</string>
-  <string name="power_menu_bug_report_title">Bug report</string>
-  <string name="power_menu_sound_title">Sound panel</string>
-  <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
+  <string name="power_menu_airplane_title">Modo de Avião</string>
+  <string name="power_menu_users_title">Mudar Utilizador</string>
+  <string name="power_menu_settings_title">Atalho das definições</string>
+  <string name="power_menu_lockdown_title">Bloqueio do dispositivo</string>
+  <string name="power_menu_bug_report_title">Reportar problema</string>
+  <string name="power_menu_sound_title">Painel de som</string>
+  <string name="power_menu_bug_report_disabled">O relatório de erros está desativado nas opções de programador</string>
   <!-- Audio Ducking -->
-  <string name="interruptions_ignore_while_media_title">Prevent audio ducking</string>
-  <string name="interruptions_ignore_while_media_summary">Do not reduce media playback volume when a notification arrives</string>
+  <string name="interruptions_ignore_while_media_title">Não baixar áudio</string>
+  <string name="interruptions_ignore_while_media_summary">Não reduzir o volume de reprodução de média quando chega uma notificação</string>
   <!-- Weather in status bar -->
-  <string name="status_bar_show_weather_title">Show weather</string>
-  <string name="status_bar_show_weather_summary">Show the weather in the status bar header</string>
+  <string name="status_bar_show_weather_title">Mostrar tempo</string>
+  <string name="status_bar_show_weather_summary">Mostrar o tempo no cabeçalho da barra de estado</string>
   <!-- Battery saver color -->
-  <string name="battery_saver_color_title">Warning color</string>
-  <string name="battery_saver_color_summary">Enable orange status and navigation bars when battery saver is activated</string>
+  <string name="battery_saver_color_title">Cor de aviso</string>
+  <string name="battery_saver_color_summary">Ativar barras de status e navegação laranja quando o modo de poupar bateria é ativado</string>
   <!-- Lockscreen tweaks -->
-  <string name="lockscreen_tweaks_title">Lockscreen tweaks</string>
-  <string name="lockscreen_tweaks">Lockscreen tweaks</string>
+  <string name="lockscreen_tweaks_title">Ajustes de lockscreen</string>
+  <string name="lockscreen_tweaks">Ajustes de lockscreen</string>
   <!-- Lockscreen wallpaper -->
-  <string name="lockscreen_wallpaper_title">Wallpaper</string>
-  <string name="lockscreen_wallpaper_summary">Set lockscreen wallpaper</string>
-  <string name="lockscreen_wallpaper_set_title">Set lock screen wallpaper</string>
-  <string name="lockscreen_wallpaper_clear_title">Clear lock screen wallpaper</string>
-  <string name="reset_lockscreen_wallpaper">Set to default</string>
+  <string name="lockscreen_wallpaper_title">Imagem de fundo</string>
+  <string name="lockscreen_wallpaper_summary">Definir imagem de fundo do ecrã de bloqueio</string>
+  <string name="lockscreen_wallpaper_set_title">Definir imagem de fundo do ecrã de bloqueio</string>
+  <string name="lockscreen_wallpaper_clear_title">Apagar imagem de fundo do ecrã de bloqueio</string>
+  <string name="reset_lockscreen_wallpaper">Repor para predefinido</string>
   <!-- Hide Lockscreen clock & date -->
-  <string name="hide_lockscreen_items_title">Lockscreen items</string>
-  <string name="hide_lockscreen_clock_title">Show lockscreen clock</string>
-  <string name="hide_lockscreen_date_title">Show lockscreen date</string>
+  <string name="hide_lockscreen_items_title">Itens de lockscreen</string>
+  <string name="hide_lockscreen_clock_title">Mostrar relógio na lockscreen</string>
+  <string name="hide_lockscreen_date_title">Mostrar data na lockscreen</string>
   <!-- Battery saver color -->
-  <string name="battery_saver_title">Warning color</string>
-  <string name="battery_saver_style_reset_message">Reset battery saver warning color?</string>
+  <string name="battery_saver_title">Cor de aviso</string>
+  <string name="battery_saver_style_reset_message">Restaurar cor de aviso de poupança de bateria?</string>
   <!-- Density Changer -->
   <string name="dpi">DPI</string>
-  <string name="su_dialog_error_title">Warning</string>
-  <string name="su_dialog_error_message">An error occurred.\n\nPlease check for root access. To activate go into superuser settings and enable root access.</string>
-  <string name="lcd_density_title">LCD Density</string>
-  <string name="lcd_density_category">Options</string>
-  <string name="follow_through_title">Warning</string>
-  <string name="follow_through_summary">Changing your default LCD density can sometimes cause certain apps to not function properly and/or the playstore to show apps being incompatible with your device</string>
-  <string name="stock_density_title">Change to stock values</string>
-  <string name="stock_density_summary">Tablets generally use 160 dpi while high end devices use 320 or 480 dpi. Older devices use 240 dpi</string>
-  <string name="stock_density_changed_summary">"Density set to: "</string>
-  <string name="reboot_title">Reboot your device</string>
-  <string name="reboot_summary">You need to reboot your device for your change to take effect</string>
-  <string name="custom_density_title">Change to whatever you like</string>
-  <string name="custom_density_summary_invalid">"INVALID DENSITY!"</string>
-  <string name="custom_density">custom</string>
-  <string name="set_custom_density_title">Set custom density</string>
+  <string name="su_dialog_error_title">Atenção</string>
+  <string name="su_dialog_error_message">Houve um erro.\n\nPor favor verificar acesso root. Para ativar vá em configurações de superusuário e permitir acesso root.</string>
+  <string name="lcd_density_title">Densidade LCD</string>
+  <string name="lcd_density_category">Opções</string>
+  <string name="follow_through_title">Atenção</string>
+  <string name="follow_through_summary">Mudar sua densidade de LCD padrão pode às vezes causar certos apps não funcionem corretamente e/ou a playstore mostrar apps incompatíveis com o seu dispositivo</string>
+  <string name="stock_density_title">Repor valores padrão</string>
+  <string name="stock_density_summary">Tabletes normalmente usam 160 dpi enquanto dispositivos high-end usam 480 ou 320 dpi. Uns dispositivos mais antigos usam 240 dpi</string>
+  <string name="stock_density_changed_summary">"Densidade definida para: "</string>
+  <string name="reboot_title">Reiniciar o dispositivo</string>
+  <string name="reboot_summary">Reiniciar o dispositivo para efectuar a sua alteração</string>
+  <string name="custom_density_title">Alterar o valor que quiser</string>
+  <string name="custom_density_summary_invalid">"DENSIDADE INVÁLIDA!"</string>
+  <string name="custom_density">Personalizado</string>
+  <string name="set_custom_density_title">Personalizar densidade</string>
   <string name="set_custom_density_set">Definir</string>
-  <string name="custom_density_dialog_title">WARNING!</string>
-  <string name="custom_density_dialog_summary">Changing your default LCD density can sometimes cause certain apps to not function properly and/or the playstore to show apps being incompatible with your device\"</string>
-  <string name="custom_density_dialog_button_got">Got it!</string>
-  <string name="custom_density_dialog_button_reboot">Reboot now</string>
+  <string name="custom_density_dialog_title">AVISO!</string>
+  <string name="custom_density_dialog_summary">Mudar a densidade de LCD padrão pode às vezes causar certos apps não funcionem corretamente e/ou a playstore mostrar apps incompatíveis com o seu dispositivo</string>
+  <string name="custom_density_dialog_button_got">Entendido!</string>
+  <string name="custom_density_dialog_button_reboot">Reiniciar agora</string>
   <!-- Heads up -->
-  <string name="headsup_section_header">Heads up notifications</string>
-  <string name="heads_up_notifications">Heads up</string>
-  <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-  <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
+  <string name="headsup_section_header">Notificações pop-up</string>
+  <string name="heads_up_notifications">Notificações pop-up</string>
+  <string name="summary_heads_up_enabled">As notificações pop-up estão ativadas</string>
+  <string name="summary_heads_up_disabled">As notificações pop-up estão desativadas</string>
   <!-- Quick settings quick pull down -->
-  <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
-  <string name="status_bar_quick_qs_pulldown_summary">Right edge of the status bar pulls down Quick Settings</string>
+  <string name="status_bar_quick_qs_pulldown_title">Puxar rápido para baixo</string>
+  <string name="status_bar_quick_qs_pulldown_summary">O canto direito da barra de estado faz baixar o painel de definições rápidas</string>
   <!-- Changelog -->
-  <string name="changelog_crdroid_title">Changelog</string>
-  <string name="changelog_crdroid_error">Unable to load changelog</string>
+  <string name="changelog_crdroid_title">Alterações</string>
+  <string name="changelog_crdroid_error">Ocorreu um problema a carregar a lista de alterações</string>
   <!-- Optional Dashboard Switches -->
-  <string name="dashboard_switches_title">Dashboard Switches</string>
-  <string name="dashboard_switches_off">Switches Off</string>
-  <string name="dashboard_switches_on">Switches On</string>
-  <string name="dashboard_switches_summary">Change the position of the dashboard switches</string>
-  <string name="dashboard_switches_dialog_title">Select switch state</string>
+  <string name="dashboard_switches_title">Seletores no Painel de Controle</string>
+  <string name="dashboard_switches_off">Seletores desactivados</string>
+  <string name="dashboard_switches_on">Seletores Activados</string>
+  <string name="dashboard_switches_summary">Alterar a posição dos seletores</string>
+  <string name="dashboard_switches_dialog_title">Escolher estado dos seletores</string>
   <!-- Volume Steps -->
-  <string name="volume_steps_title">Volume steps</string>
-  <string name="volume_steps_alarm_title">Volume steps: Alarm</string>
-  <string name="volume_steps_dtmf_title">Volume steps: DTMF</string>
-  <string name="volume_steps_music_title">Volume steps: Music</string>
-  <string name="volume_steps_notification_title">Volume steps: Notification</string>
-  <string name="volume_steps_ring_title">Volume steps: Ringer</string>
-  <string name="volume_steps_system_title">Volume steps: System</string>
-  <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
+  <string name="volume_steps_title">Níveis de volume</string>
+  <string name="volume_steps_alarm_title">Níveis de volume: Alarme</string>
+  <string name="volume_steps_dtmf_title">Níveis de volume: DTMF</string>
+  <string name="volume_steps_music_title">Níveis de volume: música</string>
+  <string name="volume_steps_notification_title">Níveis de volume: Notificação</string>
+  <string name="volume_steps_ring_title">Níveis de volume: Ringer</string>
+  <string name="volume_steps_system_title">Níveis de volume: Sistema</string>
+  <string name="volume_steps_voice_call_title">Níveis de volume: Chamada de voz</string>
   <string name="volume_steps_reset">Restaura as configurações padrão</string>
   <string name="volume_steps_60">60</string>
   <string name="volume_steps_45">45</string>
@@ -302,84 +302,84 @@
   <string name="volume_steps_7">7</string>
   <string name="volume_steps_5">5</string>
   <!-- Task Manager -->
-  <string name="enable_task_manager_title">Task Manager</string>
-  <string name="enable_task_manager_summary">Enable/Disable action for the task manager button in the expanded statusbar area.</string>
+  <string name="enable_task_manager_title">Gestor de tarefas</string>
+  <string name="enable_task_manager_summary">Ativar/desativar a ação para o botão gestor de tarefas na área expandida da barra de estado.</string>
   <!-- About phone screen, OrionOS device maintainer name -->
-  <string name="device_maintainer">Device maintainer</string>
-  <string name="device_maintainers">Device maintainers</string>
+  <string name="device_maintainer">Responsável pela manutenção do dispositivo</string>
+  <string name="device_maintainers">Responsável pela manutenção do dispositivo</string>
   <!-- Media art -->
-  <string name="media_art_title">Show media cover art</string>
-  <string name="media_art_summary">Enable media cover art on the lockscreen</string>
+  <string name="media_art_title">Mostrar a arte da capa de música</string>
+  <string name="media_art_summary">Mostrar a arte da capa de música no ecrã de bloqueio</string>
   <!-- Doze pulse options -->
   <string name="summary_doze_enabled">Activado</string>
   <string name="summary_doze_disabled">Desactivado</string>
-  <string name="doze_overwrite_value_title">Overwrite defaults</string>
-  <string name="doze_overwrite_value_summary">Allow override of default values with user config</string>
-  <string name="doze_pulse_title">User configurable settings</string>
-  <string name="doze_pulse_duration_in_title">Fade in</string>
-  <string name="doze_pulse_duration_visible_title">Visible duration</string>
-  <string name="doze_pulse_duration_out_title">Fade out</string>
-  <string name="doze_trigger_pickup_title">Pick up sensor trigger</string>
-  <string name="doze_trigger_pickup_summary_on">Pulse will be triggered by pick up sensor</string>
-  <string name="doze_trigger_pickup_summary_off">Pick up sensor will not be utilized as a trigger</string>
-  <string name="doze_trigger_notification_title">Notification trigger</string>
-  <string name="doze_trigger_notification_summary_on">Pulse will be triggered by notifications</string>
-  <string name="doze_trigger_notification_summary_off">Notifications will not be utilized as a trigger</string>
-  <string name="doze_brightness_level_title">Brightness level</string>
+  <string name="doze_overwrite_value_title">Substituir os padrões</string>
+  <string name="doze_overwrite_value_summary">Permitir a substituição de valores padrão com configurações de utilizador</string>
+  <string name="doze_pulse_title">Configurações mudaveis pelo utilizador</string>
+  <string name="doze_pulse_duration_in_title">Desvanecimento de entrada</string>
+  <string name="doze_pulse_duration_visible_title">Duração visível</string>
+  <string name="doze_pulse_duration_out_title">Desvanecimento de saida</string>
+  <string name="doze_trigger_pickup_title">Disparador do sensor de movimento</string>
+  <string name="doze_trigger_pickup_summary_on">Pulso será acionado por sensor de movimento</string>
+  <string name="doze_trigger_pickup_summary_off">Sensor \"pick-up\" não será utilizado como um disparador</string>
+  <string name="doze_trigger_notification_title">Disparos de Notificação</string>
+  <string name="doze_trigger_notification_summary_on">As pulsações serão acionadas por notificações</string>
+  <string name="doze_trigger_notification_summary_off">As notificações não serão utilizadas como mecanismo acionador</string>
+  <string name="doze_brightness_level_title">Nível de luminosidade</string>
   <string name="onehundred_ms">100 ms</string>
   <string name="twofifty_ms">250 ms</string>
-  <string name="fivehundred_ms_default">500 ms (default)</string>
+  <string name="fivehundred_ms_default">500 ms (padrão)</string>
   <string name="sevenfifty_ms">750 ms</string>
   <string name="one_second">1 s</string>
   <string name="onehalf_second">1.5 s</string>
   <string name="two_second">2 s</string>
   <string name="twohalf_second">2.5 s</string>
-  <string name="three_second_default">3 s (default)</string>
+  <string name="three_second_default">3 s (padrão)</string>
   <string name="threehalf_second">3.5 s</string>
   <string name="four_second">4 s</string>
   <string name="fourhalf_second">4.5 s</string>
   <string name="five_second">5 s</string>
   <!-- Keyguard notifications options -->
-  <string name="app_notification_show_on_keyguard_title">Show on lockscreen</string>
-  <string name="app_notification_show_on_keyguard_summary">Show notifications from this app on the lockscreen</string>
-  <string name="app_notification_no_ongoing_on_keyguard_title">Disable ongoing on lockscreen</string>
-  <string name="app_notification_no_ongoing_on_keyguard_summary">Never show ongoing notifications from this app on the lockscreen</string>
+  <string name="app_notification_show_on_keyguard_title">Mostrar no ecrã de bloqueio</string>
+  <string name="app_notification_show_on_keyguard_summary">Mostrar notificações desta aplicação no ecrã de bloqueio</string>
+  <string name="app_notification_no_ongoing_on_keyguard_title">Desativar notificações persistentes no ecrã de bloqueio</string>
+  <string name="app_notification_no_ongoing_on_keyguard_summary">Nunca mostrar notificações persistentes desta aplicação no ecrã de bloqueio</string>
   <!-- Quick Unlock (PIN) -->
-  <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-  <string name="unlock_quick_unlock_control_summary">Unlock the lockscreen automatically when the correct PIN/password is entered</string>
+  <string name="unlock_quick_unlock_control_title">Desbloqueio rápido</string>
+  <string name="unlock_quick_unlock_control_summary">Desbloquear o ecrã automaticamente quando é inserida a PIN/senha correta</string>
   <!-- Sizes for pattern lockscreen -->
   <string name="lock_pattern_size_3">3x3</string>
   <string name="lock_pattern_size_4">4x4</string>
   <string name="lock_pattern_size_5">5x5</string>
   <string name="lock_pattern_size_6">6x6</string>
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-  <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+  <string name="lockpattern_settings_enable_error_path_title">Mostrar erro padrão</string>
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-  <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+  <string name="lockpattern_settings_enable_dots_title">Mostrar pontos padrão</string>
   <!-- Lock screen vibrate settings -->
-  <string name="lockscreen_vibrate_enabled_title">Vibrate</string>
-  <string name="lockscreen_vibrate_enabled_head">Vibrate when unlocking</string>
+  <string name="lockscreen_vibrate_enabled_title">Vibrar</string>
+  <string name="lockscreen_vibrate_enabled_head">Vibrar ao desbloqueio</string>
   <!-- Setting options for LCD density -->
-  <string name="lcd_density">LCD density</string>
+  <string name="lcd_density">Densidade LCD</string>
   <string name="lcd_density_summary">%d DPI</string>
-  <string name="lcd_density_default">default</string>
-  <string name="lcd_density_unsupported">Unsupported</string>
-  <string name="lcd_density_restarting_ui">Restarting UI\u2026</string>
+  <string name="lcd_density_default">padrão</string>
+  <string name="lcd_density_unsupported">Não suportado</string>
+  <string name="lcd_density_restarting_ui">A reiniciar UI\u2026</string>
   <!-- Force expanded notifications -->
-  <string name="force_expanded_notifications_title">Force Expanded Notifications</string>
-  <string name="force_expanded_notifications_summary">Available only for apps that support expanded notifications</string>
+  <string name="force_expanded_notifications_title">Forçar as notificações expandidas</string>
+  <string name="force_expanded_notifications_summary">Disponível somente para apps que oferecem suporte para notificações expandidas</string>
   <!-- Disabling immersive mode messages -->
-  <string name="disable_immersive_message_title">Disable Immersive Mode Messages</string>
-  <string name="disable_immersive_message_summary">This will hide all Immersive Mode Messages</string>
+  <string name="disable_immersive_message_title">Desativar as mensagens de modo envolvente</string>
+  <string name="disable_immersive_message_summary">Isto irá esconder todas as mensagens de modo envolvente</string>
   <!-- Notification Count in Statusbar -->
-  <string name="status_bar_notif_count_title">Show notification count</string>
-  <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
+  <string name="status_bar_notif_count_title">Mostrar a contagem de notificações</string>
+  <string name="status_bar_notif_count_summary">Exibir o número de notificações pendentes</string>
   <!-- Breathing Notifications -->
-  <string name="breathing_notifications_title">Breathing notifications</string>
-  <string name="missed_call_breath_title">Breathing Missed Call</string>
-  <string name="missed_call_breath_summary">Will give your missed call notifications a breathing effect in the statusbar</string>
-  <string name="voicemail_breath_title">Breathing Voicemail</string>
-  <string name="voicemail_breath_summary">Will give your voicemail notifications a breathing effect in the statusbar</string>
-  <string name="breathing_notifications_category">Breathing Notifications</string>
-  <string name="statusbar_notifications_category">Notifications</string>
+  <string name="breathing_notifications_title">Efeito de respiração em notificações</string>
+  <string name="missed_call_breath_title">Efeito de respiração em notificações de chamada perdida</string>
+  <string name="missed_call_breath_summary">Dar-lhe-á um efeito de respiração nas notificações de chamadas perdidas na barra de estado</string>
+  <string name="voicemail_breath_title">Efeito de respiração em notificações de Correio de voz</string>
+  <string name="voicemail_breath_summary">Dar efeito de respiração nas notificações de correio de voz na barra de estado</string>
+  <string name="breathing_notifications_category">Efeito de respiração em notificações</string>
+  <string name="statusbar_notifications_category">Notificações</string>
 </resources>
