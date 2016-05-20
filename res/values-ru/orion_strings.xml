@@ -29,7 +29,7 @@
   <string name="hex">Hex:</string>
   <string name="hex_hint">#ff000000</string>
   <string name="set">Set</string>
-  <string name="color_default">Default</string>
+  <string name="color_default">По умолчанию</string>
   <!-- Hardware keys -->
   <string name="button_pref_title">Buttons</string>
   <string name="hardware_keys_home_key_title">Home button</string>
@@ -83,7 +83,7 @@
   <string name="notification_light_applist_title">Apps</string>
   <string name="notification_light_phonelist_title">Phone</string>
   <string name="notification_light_use_custom">Use custom values</string>
-  <string name="notification_light_default_value">Default</string>
+  <string name="notification_light_default_value">По умолчанию</string>
   <string name="notification_light_missed_call_title">Missed call</string>
   <string name="notification_light_voicemail_title">Voicemail</string>
   <!-- BitSyko Layers -->
@@ -176,7 +176,7 @@
   <string name="status_bar_custom_header_title">Custom header image</string>
   <string name="status_bar_custom_header_summary">Enable notification panel header image</string>
   <string name="status_bar_custom_header_default_title">Select your images</string>
-  <string name="custom_header_image_0">Default</string>
+  <string name="custom_header_image_0">По умолчанию</string>
   <string name="custom_header_image_1">Modern</string>
   <string name="custom_header_image_2">Poly HD</string>
   <string name="custom_header_image_3">Orion</string>
@@ -213,7 +213,7 @@
   <string name="power_menu_title">Power menu</string>
   <string name="power_menu_power_title">Power off</string>
   <string name="power_menu_reboot_title">Reboot menu</string>
-  <string name="power_menu_screenshot_title">Screenshot</string>
+  <string name="power_menu_screenshot_title">Снимок экрана</string>
   <string name="power_menu_airplane_title">Airplane mode</string>
   <string name="power_menu_users_title">User switcher</string>
   <string name="power_menu_settings_title">Settings shortcut</string>
