@@ -100,9 +100,7 @@
   <string name="backlight_timeout_title">背光超时</string>
   <string name="backlight_timeout_unlimited">从不关闭</string>
   <string name="backlight_summary_disabled">未启用</string>
-  <string name="backlight_summary_enabled_with_timeout">Enabled for
-    <xliff:g id="timeout">%s</xliff:g>
-  </string>
+  <string name="backlight_summary_enabled_with_timeout">保持背光灯 <xliff:g id="timeout">%s</xliff:g>  </string>
   <string name="backlight_summary_enabled">已启用</string>
   <string name="settings_reset_button">复位</string>
   <!-- Preference category for LAN development settings. [CHAR LIMIT=25] -->
@@ -177,7 +175,7 @@
   <string name="status_bar_custom_header_summary">启用通知面板标题图像</string>
   <string name="status_bar_custom_header_default_title">选择图片</string>
   <string name="custom_header_image_0">默认</string>
-  <string name="custom_header_image_1">Modern</string>
+  <string name="custom_header_image_1">现代</string>
   <string name="custom_header_image_2">Poly HD</string>
   <string name="custom_header_image_3">Orion</string>
   <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->

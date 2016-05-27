@@ -197,60 +197,60 @@
   <string name="dashboard_columns_title">Colunas do painel de controle</string>
   <string name="dashboard_columns_summary">Alterar o número de colunas exibidas no painel de controle</string>
   <string name="dashboard_columns_dialog_title">Selecione as colunas do painel de controle</string>
-  <string name="dashboard_columns_default">One (default)</string>
-  <string name="dashboard_columns_two">Two</string>
-  <string name="dashboard_columns_three">Three</string>
-  <string name="dashboard_tileview_double_lines_title">Dashboard title view</string>
-  <string name="dashboard_tileview_double_lines_summary">Show dashboard tile titles in 2 lines</string>
-  <string name="dashboard_tileview_dividers_title">Dashboard dividers</string>
-  <string name="dashboard_tileview_dividers_summary">Hide dashboard tile dividers</string>
+  <string name="dashboard_columns_default">Uma (padrão)</string>
+  <string name="dashboard_columns_two">Dois</string>
+  <string name="dashboard_columns_three">Três</string>
+  <string name="dashboard_tileview_double_lines_title">Exibição de título do Painel de Controle</string>
+  <string name="dashboard_tileview_double_lines_summary">Mostrar títulos do painel em 2 linhas</string>
+  <string name="dashboard_tileview_dividers_title">Divisores do painel</string>
+  <string name="dashboard_tileview_dividers_summary">Esconder os divisores do painel</string>
   <!-- Setting checkbox summary for displaying USB debugging notification -->
-  <string name="adb_notify">USB debugging notify</string>
-  <string name="adb_notify_summary">Display a notification when USB debugging is connected</string>
+  <string name="adb_notify">Notificação de depuração USB</string>
+  <string name="adb_notify_summary">Exibe uma notificação quando a depuração USB é conectada</string>
   <!-- Power menu -->
-  <string name="power_menu_title">Power menu</string>
-  <string name="power_menu_power_title">Power off</string>
-  <string name="power_menu_reboot_title">Reboot menu</string>
+  <string name="power_menu_title">Menu de Energia</string>
+  <string name="power_menu_power_title">Desligar</string>
+  <string name="power_menu_reboot_title">Menu de reinicialização</string>
   <string name="power_menu_screenshot_title">Captura de tela</string>
-  <string name="power_menu_airplane_title">Airplane mode</string>
-  <string name="power_menu_users_title">User switcher</string>
-  <string name="power_menu_settings_title">Settings shortcut</string>
-  <string name="power_menu_lockdown_title">Device lockdown</string>
-  <string name="power_menu_bug_report_title">Bug report</string>
-  <string name="power_menu_sound_title">Sound panel</string>
-  <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
+  <string name="power_menu_airplane_title">Modo Avião</string>
+  <string name="power_menu_users_title">Mudar usuário</string>
+  <string name="power_menu_settings_title">Atalho das definições</string>
+  <string name="power_menu_lockdown_title">Bloqueio do dispositivo</string>
+  <string name="power_menu_bug_report_title">Reportar problema</string>
+  <string name="power_menu_sound_title">Painel de som</string>
+  <string name="power_menu_bug_report_disabled">O relatório de erros está desativado nas opções de programador</string>
   <!-- Audio Ducking -->
-  <string name="interruptions_ignore_while_media_title">Prevent audio ducking</string>
-  <string name="interruptions_ignore_while_media_summary">Do not reduce media playback volume when a notification arrives</string>
+  <string name="interruptions_ignore_while_media_title">Não baixar áudio</string>
+  <string name="interruptions_ignore_while_media_summary">Não reduzir o volume de reprodução de média quando chega uma notificação</string>
   <!-- Weather in status bar -->
-  <string name="status_bar_show_weather_title">Show weather</string>
-  <string name="status_bar_show_weather_summary">Show the weather in the status bar header</string>
+  <string name="status_bar_show_weather_title">Mostrar clima</string>
+  <string name="status_bar_show_weather_summary">Mostrar o tempo no cabeçalho da barra de status</string>
   <!-- Battery saver color -->
-  <string name="battery_saver_color_title">Warning color</string>
-  <string name="battery_saver_color_summary">Enable orange status and navigation bars when battery saver is activated</string>
+  <string name="battery_saver_color_title">Cor de aviso</string>
+  <string name="battery_saver_color_summary">Habilitar a cor laranja - barras de status/navegação quando o economizador de bateria está ativado</string>
   <!-- Lockscreen tweaks -->
-  <string name="lockscreen_tweaks_title">Lockscreen tweaks</string>
-  <string name="lockscreen_tweaks">Lockscreen tweaks</string>
+  <string name="lockscreen_tweaks_title">Ajustes de lockscreen</string>
+  <string name="lockscreen_tweaks">Ajustes de lockscreen</string>
   <!-- Lockscreen wallpaper -->
-  <string name="lockscreen_wallpaper_title">Wallpaper</string>
-  <string name="lockscreen_wallpaper_summary">Set lockscreen wallpaper</string>
-  <string name="lockscreen_wallpaper_set_title">Set lock screen wallpaper</string>
-  <string name="lockscreen_wallpaper_clear_title">Clear lock screen wallpaper</string>
-  <string name="reset_lockscreen_wallpaper">Set to default</string>
+  <string name="lockscreen_wallpaper_title">Plano de fundo</string>
+  <string name="lockscreen_wallpaper_summary">Definir o papel de parede da tela de bloqueio</string>
+  <string name="lockscreen_wallpaper_set_title">Definir o Papel de Parede da Tela de Bloqueio</string>
+  <string name="lockscreen_wallpaper_clear_title">Limpar papel de parede da tela de bloqueio</string>
+  <string name="reset_lockscreen_wallpaper">Definir como padrão</string>
   <!-- Hide Lockscreen clock & date -->
-  <string name="hide_lockscreen_items_title">Lockscreen items</string>
-  <string name="hide_lockscreen_clock_title">Show lockscreen clock</string>
-  <string name="hide_lockscreen_date_title">Show lockscreen date</string>
+  <string name="hide_lockscreen_items_title">Estilo do Bloqueio</string>
+  <string name="hide_lockscreen_clock_title">Mostrar relógio na tela de bloqueio</string>
+  <string name="hide_lockscreen_date_title">Mostrar data na tela de bloqueio</string>
   <!-- Battery saver color -->
-  <string name="battery_saver_title">Warning color</string>
-  <string name="battery_saver_style_reset_message">Reset battery saver warning color?</string>
+  <string name="battery_saver_title">Cor de aviso</string>
+  <string name="battery_saver_style_reset_message">Redefinir a cor de aviso de economia de bateria?</string>
   <!-- Density Changer -->
   <string name="dpi">DPI</string>
-  <string name="su_dialog_error_title">Warning</string>
-  <string name="su_dialog_error_message">An error occurred.\n\nPlease check for root access. To activate go into superuser settings and enable root access.</string>
-  <string name="lcd_density_title">LCD Density</string>
-  <string name="lcd_density_category">Options</string>
-  <string name="follow_through_title">Warning</string>
+  <string name="su_dialog_error_title">Aviso</string>
+  <string name="su_dialog_error_message">Ocorreu um erro.\n\nPor favor, verifique por acesso root. Para ativar vá em configurações do SuperUser e habilite o acesso root.</string>
+  <string name="lcd_density_title">Densidade de LCD</string>
+  <string name="lcd_density_category">Opções</string>
+  <string name="follow_through_title">Aviso</string>
   <string name="follow_through_summary">Alterar a densidade padrão do LCD pode causar que certos apps não funcionem corretamente e/ou a PlayStore mostre apps incompatíveis com o seu dispositivo</string>
   <string name="stock_density_title">Alterar para valores padrão</string>
   <string name="stock_density_summary">Tablets normalmente utilizam 160DPI enquanto dispositivo top de linha usam 320 ou 480 DPI. Dispositivos antigos usam 240 DPI</string>
@@ -312,11 +312,11 @@
   <string name="summary_doze_enabled">Ativado</string>
   <string name="summary_doze_disabled">Desativado</string>
   <string name="doze_overwrite_value_title">Substituir os padrões</string>
-  <string name="doze_overwrite_value_summary">Allow override of default values with user config</string>
-  <string name="doze_pulse_title">User configurable settings</string>
-  <string name="doze_pulse_duration_in_title">Fade in</string>
-  <string name="doze_pulse_duration_visible_title">Visible duration</string>
-  <string name="doze_pulse_duration_out_title">Fade out</string>
+  <string name="doze_overwrite_value_summary">Permite a substituição do valor padrão pela configuração do usuário</string>
+  <string name="doze_pulse_title">Ajuste de configurações de usuário</string>
+  <string name="doze_pulse_duration_in_title">Escurecer</string>
+  <string name="doze_pulse_duration_visible_title">Duração visível</string>
+  <string name="doze_pulse_duration_out_title">Esmaecer</string>
   <string name="doze_trigger_pickup_title">Ativação do gesto de acordar o dispositivo</string>
   <string name="doze_trigger_pickup_summary_on">As pulsações irão ser acionadas pelos sensores de movimento</string>
   <string name="doze_trigger_pickup_summary_off">As notificações não serão utilizadas como mecanismo acionador</string>
