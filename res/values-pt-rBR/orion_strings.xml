@@ -130,41 +130,41 @@
   <string name="show_network_traffic_frequency">intervalo de atualização</string>
   <string name="show_network_traffic_disable">Desativado</string>
   <string name="show_network_traffic_up">Saindo</string>
-  <string name="show_network_traffic_down">Recebido</string>
-  <string name="show_network_traffic_all">Enviado e recebido</string>
-  <string name="show_network_traffic_bit">Bits por Segundo</string>
+  <string name="show_network_traffic_down">Entrada</string>
+  <string name="show_network_traffic_all">Saída e de entrada</string>
+  <string name="show_network_traffic_bit">Bits por segundo</string>
   <string name="show_network_traffic_byte">Bytes por segundo</string>
   <string name="show_network_traffic_500">500 k/s</string>
   <string name="show_network_traffic_1000">1000 K/s</string>
   <string name="show_network_traffic_1500">1500 K/s</string>
   <string name="show_network_traffic_2000">2000 K/s</string>
   <string name="network_traffic_autohide">Auto-Ocultar</string>
-  <string name="network_traffic_autohide_summary">Esconder o monitor de tráfego, quando não há atividade</string>
+  <string name="network_traffic_autohide_summary">Ocultar o monitor de tráfego, quando não há nenhuma atividade</string>
   <string name="network_traffic_autohide_threshold">Limite de inatividade</string>
-  <string name="network_traffic_color_style">Personalizar cor</string>
+  <string name="network_traffic_color_style">Estilo de cor</string>
   <string name="network_traffic_color_reset">Redefinir a cor</string>
   <string name="network_traffic_color_reset_message">Repor as predefinições da cor de tráfego de rede?</string>
   <!-- tap-to-sleep -->
-  <string name="double_tap_to_sleep_title">Toque duas vezes para dormir</string>
+  <string name="double_tap_to_sleep_title">Dois toques para dormir</string>
   <string name="double_tap_to_sleep_summary">Dê um duplo toque na barra de status para desligar a tela</string>
   <!-- Carrier Label -->
-  <string name="carrier_options">Nome da operadora</string>
-  <string name="custom_carrier_label_title">Personalizar nome de operadora</string>
+  <string name="carrier_options">Carrier Label</string>
+  <string name="custom_carrier_label_title">Personalizar carrier label</string>
   <string name="custom_carrier_label_explain">Por favor, insira um novo texto. Deixe em branco para reverter para a original.</string>
   <string name="custom_carrier_label_notset">Texto personalizado não definido</string>
   <string name="status_bar_carrier_color">Cor do texto</string>
-  <string name="show_carrier_title">Nome da operadora</string>
+  <string name="show_carrier_title">Carrier label</string>
   <string name="show_carrier_disabled">Desligado</string>
   <string name="show_carrier_keyguard">Portador do teclado</string>
   <string name="show_carrier_statusbar">Mostrar operadora na barra de status</string>
-  <string name="show_carrier_enabled">Habilitado</string>
+  <string name="show_carrier_enabled">Ativado</string>
   <!-- Double tap to sleep on lockscreen -->
-  <string name="double_tap_sleep_anywhere_title">Toque duas vezes para dormir</string>
+  <string name="double_tap_sleep_anywhere_title">Dois toques para dormir</string>
   <string name="double_tap_sleep_anywhere_summary">Toque duplo lockscreen para colocar o dispositivo para dormir</string>
   <!-- Recents Fullscreen -->
   <string name="recents_show_fullscreen">Recentes em fullscreen</string>
   <string name="recents_fullscreen_summary_enabled">Recentes em tela cheia está habilitado</string>
-  <string name="recents_fullscreen_summary_disabled">Recentes em tela cheia é desativado</string>
+  <string name="recents_fullscreen_summary_disabled">Recentes em tela cheia está desativado</string>
   <!-- RAM bar -->
   <string name="recents_show_membar_title">Barra de memória RAM</string>
   <string name="recents_show_membar_summary_on">Barra de memória RAM disponível será exibida na vista de recents</string>
@@ -279,8 +279,8 @@
   <string name="changelog_crdroid_error">Não foi possível carregar o registro de alterações</string>
   <!-- Optional Dashboard Switches -->
   <string name="dashboard_switches_title">Interruptores de painel</string>
-  <string name="dashboard_switches_off">Desliga</string>
-  <string name="dashboard_switches_on">Acende-se</string>
+  <string name="dashboard_switches_off">Interruptores desligados</string>
+  <string name="dashboard_switches_on">Interruptores ligados</string>
   <string name="dashboard_switches_summary">Alterar a posição dos interruptores de painel</string>
   <string name="dashboard_switches_dialog_title">Interruptor de seleção de estado</string>
   <!-- Volume Steps -->
