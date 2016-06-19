@@ -62,7 +62,12 @@
         android:key="navigation_settings"
         android:fragment="com.android.settings.slim.NavigationSettings"
         android:title="@string/navigation_settings_title"			/>
-	
+
+     <PreferenceScreen
+		android:key="blur_ui"
+        android:title="@string/xosp_settings_blur_cat" 
+		android:fragment="com.android.settings.xosp.BluePersonalizations" />
+       	
 	<!-- MotoDoze -->
     <PreferenceScreen
         android:key="device_specific_gesture_settings"
