@@ -739,7 +739,7 @@ public class SecuritySettings extends SettingsPreferenceFragment
             mAdvancedReboot.setSummary(mAdvancedReboot.getEntry());
         }
 
-        } else if (preference == mBlockOnSecureKeyguard) {
+         else if (preference == mBlockOnSecureKeyguard) {
             Settings.Secure.putInt(getContentResolver(),
                     Settings.Secure.STATUS_BAR_LOCKED_ON_SECURE_KEYGUARD,
                     (Boolean) value ? 1 : 0);
