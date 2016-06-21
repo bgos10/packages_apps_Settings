@@ -380,4 +380,10 @@
   <string name="voicemail_breath_summary">Will give your voicemail notifications a breathing effect in the statusbar</string>
   <string name="breathing_notifications_category">Breathing Notifications</string>
   <string name="statusbar_notifications_category">Notifications</string>
+  <!-- Quick settings disable on lockscreen -->
+  <string name="block_on_secure_keyguard_title">Disable quick settings</string>
+  <string name="block_on_secure_keyguard_summary">On secure lockscreen</string>
+  <!-- Screenshot sound -->
+  <string name="screenshot_sound_title">Screenshot sound</string>
+  <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
 </resources>
