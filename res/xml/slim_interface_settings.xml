@@ -66,7 +66,7 @@
      <PreferenceScreen
 		android:key="blur_ui"
         android:title="@string/xosp_settings_blur_cat" 
-		android:fragment="com.android.settings.xosp.BluePersonalizations" />
+		android:fragment="com.android.settings.xosp.BlurPersonalizations" />
        	
 	<!-- MotoDoze -->
     <PreferenceScreen
@@ -80,7 +80,7 @@
 
         <!-- OnePlusDoze -->
     <PreferenceScreen
-        android:key="device_specific_gesture_settings"
+        android:key="op_device_specific_gesture_settings"
         android:title="@string/gesture_settings_title" >
             <intent
             android:action="com.cyanogenmod.action.LAUNCH_TOUCHSCREEN_GESTURE_SETTINGS"
