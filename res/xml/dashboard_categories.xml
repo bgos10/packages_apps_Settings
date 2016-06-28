@@ -205,8 +205,19 @@
             android:id="@+id/personal_section"
             android:key="@string/category_key_personal"
             android:title="@string/header_category_personal" >
+    
+        <!-- Substratum -->
+        <dashboard-tile
+                android:id="@+id/substratum"
+                android:icon="@drawable/ic_settings_substratum"
+                android:title="@string/substratum_title">     
+		<intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="projekt.substratum"
+                android:targetClass="projekt.substratum.LaunchActivity" />
+	</dashboard-tile> 
 
-        <!-- Location -->
+       <!-- Location -->
         <dashboard-tile
                 android:id="@+id/location_settings"
                 android:title="@string/location_settings_title"
