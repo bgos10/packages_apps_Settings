@@ -15,11 +15,17 @@
  */
 package com.android.settings.orion;
 
+import android.content.Context;
+import android.content.ContentResolver;
+import android.content.Intent;
+
 import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.SwitchPreference;
+import android.preference.PreferenceScreen;
 import android.provider.Settings;
+
 import com.android.internal.logging.MetricsLogger;
 
 import com.android.settings.R;
@@ -27,10 +33,17 @@ import com.android.settings.SettingsPreferenceFragment;
 
 public class LockscreenTweaks extends SettingsPreferenceFragment {
 
+    private static final String LSWEATHER = "ls_weather";
+    private PreferenceScreen mLsWeather;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.orion_lockscreen_tweaks);
+
+        ContentResolver resolver = getActivity().getContentResolver();
+
+        mLsWeather = (PreferenceScreen)findPreference(LSWEATHER);
   }
   
   	@Override
