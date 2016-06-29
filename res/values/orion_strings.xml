@@ -257,15 +257,13 @@
 
    <!-- Lockscreen Weather settings -->
     <string name="weather_show_weather_title">Show weather options</string>
-    <string name="weather_show_weather_summary">Enable to show weather options that go along with LockClock</string>
+    <string name="weather_show_weather_summary">Display weather on lockscreen</string>
     <string name="lockscreen_weather_fragment_title">Lockscreen weather</string>
     <string name="lockscreen_weather_summary">Customize lockscreen weather elements</string>
     <string name="status_bar_show_weather_title">Extended statusbar weather</string>
     <string name="status_bar_show_weather_summary">Show basic weather in the extended statusbar area</string>
     <string name="weather_show_location_title">Show location</string>
     <string name="weather_show_location_summary">Enable to show the location</string>
-    <string name="weather_show_timestamp_title">Show timestamp</string>
-    <string name="weather_show_timestamp_summary">Enable to show the timestamp</string>
     <string name="weather_condition_icon_title">Condition icon</string>
     <string name="weather_condition_icon_dlg_title">Pick an icon for displaying the weather condition</string>
     <string name="weather_condition_icon_monochrome_title">Monochrome</string>
