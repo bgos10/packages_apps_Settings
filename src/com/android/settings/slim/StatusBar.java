@@ -83,6 +83,7 @@ public class StatusBar extends SettingsPreferenceFragment implements OnPreferenc
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        addPreferencesFromResource(R.xml.status_bar_settings);        
         createCustomView();
         
     }
@@ -90,7 +91,6 @@ public class StatusBar extends SettingsPreferenceFragment implements OnPreferenc
  private PreferenceScreen createCustomView() {
        
         mCheckPreferences = false;
-        addPreferencesFromResource(R.xml.status_bar_settings);        
         PreferenceScreen prefSet = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
  
