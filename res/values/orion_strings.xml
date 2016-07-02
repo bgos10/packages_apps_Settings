@@ -474,5 +474,9 @@
 
     <!-- QuickSettings 4 columns -->
     <string name="qs_four_columns_title">Show four tiles per row</string>
+    
+    <!-- Restart System UI -->
+    <string name="restart_system_ui"> Restart SystemUI</string>
+    <string name="restart_system_ui_summary"> restart SystemUI to apply some changes</string>
 
 </resources>

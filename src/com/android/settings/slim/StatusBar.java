@@ -33,6 +33,7 @@ import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceScreen;
 import android.preference.Preference.OnPreferenceChangeListener;
+import android.preference.Preference.OnPreferenceClickListener;
 import android.preference.SwitchPreference;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
@@ -58,16 +59,18 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
-public class StatusBar extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+public class StatusBar extends SettingsPreferenceFragment implements OnPreferenceChangeListener, OnPreferenceClickListener {
 
     private static final String TAG = "StatusBar";
 
     private static final String PREF_CUSTOM_HEADER_DEFAULT = "status_bar_custom_header_default";
     private static final String PREF_ENABLE_TASK_MANAGER = "enable_task_manager";
- 
+	private static final String RESTART_UI = "restart_ui";
+	
     private ListPreference mCustomHeaderDefault;
     private SwitchPreference mEnableTaskManager;
-
+	private Preference restartUI;
+	
     private boolean mCheckPreferences;
     
     
@@ -114,10 +117,21 @@ public class StatusBar extends SettingsPreferenceFragment implements OnPreferenc
         mEnableTaskManager.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
                 Settings.System.ENABLE_TASK_MANAGER, 0) == 1));
 
+        // SystemUI restart
+        restartUI = findPreference(RESTART_UI);
+
+        restartUI.setOnPreferenceClickListener(new OnPreferenceClickListener() {
+        	public boolean onPreferenceClick(Preference pref) {
+            	Helpers.restartSystemUI();    
+            	return true;    		
+        	}
+         });
+        
          setHasOptionsMenu(true);
          mCheckPreferences = true;
          return prefSet;
-     }
+       
+    }
      
     public boolean onPreferenceChange(Preference preference, Object newValue) {
     
@@ -153,7 +167,17 @@ public class StatusBar extends SettingsPreferenceFragment implements OnPreferenc
         }
         return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
-
+   
+   @Override
+   public boolean onPreferenceClick(Preference pref) {
+   			if(pref == restartUI) {
+            	Helpers.restartSystemUI();
+            	return true;  
+            }
+            
+            return false;  
+   }
+	
     @Override
     public void onResume() {
         super.onResume();
