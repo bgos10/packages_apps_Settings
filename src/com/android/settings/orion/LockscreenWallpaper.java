@@ -24,6 +24,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceScreen;
+import android.preference.Preference.OnPreferenceClickListener;
 import android.widget.Toast;
 
 import com.android.settings.R;
@@ -32,15 +33,17 @@ import com.android.settings.util.Helpers;
 
 import com.android.internal.logging.MetricsLogger;
 
-public class LockscreenWallpaper extends SettingsPreferenceFragment {
+public class LockscreenWallpaper extends SettingsPreferenceFragment implements OnPreferenceClickListener {
     public static final int IMAGE_PICK = 1;
 
     private static final String KEY_WALLPAPER_SET = "lockscreen_wallpaper_set";
     private static final String KEY_WALLPAPER_CLEAR = "lockscreen_wallpaper_clear";
-
+	private static final String RESTART_UI = "restart_ui";
+	
     private Preference mSetWallpaper;
     private Preference mClearWallpaper;
-
+	private Preference restartUI;
+	
     @Override
     protected int getMetricsCategory() {
         return MetricsLogger.APPLICATION;
@@ -53,6 +56,16 @@ public class LockscreenWallpaper extends SettingsPreferenceFragment {
 
         mSetWallpaper = (Preference) findPreference(KEY_WALLPAPER_SET);
         mClearWallpaper = (Preference) findPreference(KEY_WALLPAPER_CLEAR);
+        
+        // SystemUI restart
+        restartUI = findPreference(RESTART_UI);
+
+        restartUI.setOnPreferenceClickListener(new OnPreferenceClickListener() {
+        	public boolean onPreferenceClick(Preference pref) {
+            	Helpers.restartSystemUI();    
+            	return true;    		
+        	}
+         });
     }
 
     @Override
@@ -80,7 +93,6 @@ public class LockscreenWallpaper extends SettingsPreferenceFragment {
                 intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
                 intent.setData(uri);
                 startActivity(intent);
-                Helpers.restartSystemUI();
             }
         }
     }
@@ -97,4 +109,14 @@ public class LockscreenWallpaper extends SettingsPreferenceFragment {
         wallpaperManager.clearKeyguardWallpaper();
         Helpers.restartSystemUI();
     }
+    
+   @Override
+   public boolean onPreferenceClick(Preference pref) {
+   			if(pref == restartUI) {
+            	Helpers.restartSystemUI();
+            	return true;  
+            }
+            
+            return false;  
+   }
 }

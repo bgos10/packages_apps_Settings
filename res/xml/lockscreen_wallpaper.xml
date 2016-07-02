@@ -31,5 +31,10 @@
             android:title="@string/lockscreen_wallpaper_clear_title"
             android:persistent="false"/>
 
+    <Preference
+    	android:key="restart_ui"
+    	android:title="@string/restart_system_ui" 
+    	android:summary="@string/restart_system_ui_wall_summary" />
+
     </PreferenceCategory>
 </PreferenceScreen>

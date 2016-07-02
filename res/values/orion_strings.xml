@@ -477,6 +477,7 @@
     
     <!-- Restart System UI -->
     <string name="restart_system_ui"> Restart SystemUI</string>
-    <string name="restart_system_ui_summary"> restart SystemUI to apply some changes</string>
+    <string name="restart_system_ui_summary"> Restart SystemUI to apply statusbar changes</string>
+    <string name="restart_system_ui_wall_summary"> Restart SystemUI to apply/clear the wallpaper</string>
 
 </resources>
