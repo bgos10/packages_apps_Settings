@@ -409,11 +409,11 @@
   <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
   <!-- Linked / unlinked notification volume -->
   <string name="link_volume_option_title">Link ring and notification volumes</string>
-  <string name="notification_volume_option_title">Notification volume</string>
+  <string name="notification_volume_option_title">Lautstärke für Benachrichtigungen</string>
   <!-- QuickSettings 4 columns -->
-  <string name="qs_four_columns_title">Show four tiles per row</string>
+  <string name="qs_four_columns_title">Vier Kacheln pro Zeile anzeigen</string>
   <!-- Restart System UI -->
-  <string name="restart_system_ui"> Restart SystemUI</string>
+  <string name="restart_system_ui">SystemUI neustarten</string>
   <string name="restart_system_ui_summary"> Restart SystemUI to apply statusbar changes</string>
   <string name="restart_system_ui_wall_summary"> Restart SystemUI to apply/clear the wallpaper</string>
 </resources>
