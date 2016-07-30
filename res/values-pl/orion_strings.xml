@@ -228,26 +228,26 @@
   <string name="status_bar_show_weather_title">Pokaż pogodę</string>
   <string name="status_bar_show_weather_summary">Pokaż pogodę na belce paska powiadomień</string>
   <!-- Lockscreen Weather settings -->
-  <string name="weather_show_weather_title">Show weather options</string>
-  <string name="weather_show_weather_summary">Display weather on lockscreen</string>
-  <string name="lockscreen_weather_fragment_title">Lockscreen weather</string>
-  <string name="lockscreen_weather_summary">Customize lockscreen weather elements</string>
+  <string name="weather_show_weather_title">Pokaż opcje pogody</string>
+  <string name="weather_show_weather_summary">Pokaż pogodę na blokadzie ekranu</string>
+  <string name="lockscreen_weather_fragment_title">Pogoda na blokadzie ekranu</string>
+  <string name="lockscreen_weather_summary">Dopasuj elementy pogody na blokadzie ekranu</string>
   <string name="status_bar_show_weather_title">Pokaż pogodę</string>
   <string name="status_bar_show_weather_summary">Pokaż pogodę na belce paska powiadomień</string>
-  <string name="weather_show_location_title">Show location</string>
-  <string name="weather_show_location_summary">Enable to show the location</string>
-  <string name="weather_condition_icon_title">Condition icon</string>
-  <string name="weather_condition_icon_dlg_title">Pick an icon for displaying the weather condition</string>
-  <string name="weather_condition_icon_monochrome_title">Monochrome</string>
-  <string name="weather_condition_icon_colored_title">Colored</string>
+  <string name="weather_show_location_title">Pokaż lokalizację</string>
+  <string name="weather_show_location_summary">Włącz by pokazać lokalizację</string>
+  <string name="weather_condition_icon_title">Ikona pogody</string>
+  <string name="weather_condition_icon_dlg_title">Wybierz ikonę do pokazywania pogody</string>
+  <string name="weather_condition_icon_monochrome_title">Monochromatyczne</string>
+  <string name="weather_condition_icon_colored_title">Kolorowe</string>
   <string name="weather_condition_icon_vclouds_title">VClouds</string>
-  <string name="weather_colorize_all_icons_title">Colorize all icons</string>
-  <string name="weather_colorize_all_icons_summary">Enable to colorize all icons, disable to colorize only the monochrome icons</string>
+  <string name="weather_colorize_all_icons_title">Wszystkie ikony kolorowe</string>
+  <string name="weather_colorize_all_icons_summary">Włącz by wszystkie ikony były kolorowe, wyłącz by kolorowe były jedynie ikony monochromatyczne</string>
   <string name="colors_title">Kolory</string>
-  <string name="icons_title">Icons</string>
+  <string name="icons_title">Ikony</string>
   <string name="text_title">Tekst</string>
   <string name="reset_lockscreen_weather">OK</string>
-  <string name="reset_values_message">Reset values?</string>
+  <string name="reset_values_message">Wyzerować wartości?</string>
   <!-- Battery saver color -->
   <string name="battery_saver_color_title">Kolor ostrzeżenia</string>
   <string name="battery_saver_color_summary">Włącz pomarańczowe paski stanu i nawigacyji, gdy uruchomione jest oszczędzanie baterii</string>
@@ -390,32 +390,32 @@
   <string name="force_expanded_notifications_title">Wymuś rozwijanie powiadomień</string>
   <string name="force_expanded_notifications_summary">Dostępne tylko dla aplikacji, które wspierają rozwijanie powiadomień</string>
   <!-- Disabling immersive mode messages -->
-  <string name="disable_immersive_message_title">Disable Immersive Mode Messages</string>
-  <string name="disable_immersive_message_summary">This will hide all Immersive Mode Messages</string>
+  <string name="disable_immersive_message_title">Wyłącz Tryb Wciągających Wiadomości</string>
+  <string name="disable_immersive_message_summary">Ta opcja ukryje wszystkie wiadomości Trybu Wciągającego</string>
   <!-- Notification Count in Statusbar -->
-  <string name="status_bar_notif_count_title">Show notification count</string>
-  <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
+  <string name="status_bar_notif_count_title">Pokaż licznik powiadomień</string>
+  <string name="status_bar_notif_count_summary">Pokaż liczbę oczekujących powiadomień</string>
   <!-- Breathing Notifications -->
-  <string name="breathing_notifications_title">Breathing notifications</string>
-  <string name="missed_call_breath_title">Breathing Missed Call</string>
-  <string name="missed_call_breath_summary">Will give your missed call notifications a breathing effect in the statusbar</string>
-  <string name="voicemail_breath_title">Breathing Voicemail</string>
-  <string name="voicemail_breath_summary">Will give your voicemail notifications a breathing effect in the statusbar</string>
-  <string name="breathing_notifications_category">Breathing Notifications</string>
+  <string name="breathing_notifications_title">Powiadomienia oddychające</string>
+  <string name="missed_call_breath_title">Oddychające powiadomienie o nieodebranym połączeniu</string>
+  <string name="missed_call_breath_summary">Nada efektu oddychania powiadomieniom o nieodebranym połączeniu w pasku zadań</string>
+  <string name="voicemail_breath_title">Oddychająca wiadomość głosowa</string>
+  <string name="voicemail_breath_summary">Nada powiadomieniu o wiadomości głosowej na pasku zadań efektu oddychania</string>
+  <string name="breathing_notifications_category">Animowane powiadomienia</string>
   <string name="statusbar_notifications_category">Powiadomienia</string>
   <!-- Quick settings disable on lockscreen -->
-  <string name="block_on_secure_keyguard_title">Disable quick settings</string>
-  <string name="block_on_secure_keyguard_summary">On secure lockscreen</string>
+  <string name="block_on_secure_keyguard_title">Wyłącz szybkie ustawienia</string>
+  <string name="block_on_secure_keyguard_summary">Na ekranie blokady</string>
   <!-- Screenshot sound -->
-  <string name="screenshot_sound_title">Screenshot sound</string>
-  <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
+  <string name="screenshot_sound_title">Dźwięk zrzutu ekranu</string>
+  <string name="screenshot_sound_summary">Dźwięk wykonania zrzutu ekranu</string>
   <!-- Linked / unlinked notification volume -->
-  <string name="link_volume_option_title">Link ring and notification volumes</string>
-  <string name="notification_volume_option_title">Notification volume</string>
+  <string name="link_volume_option_title">Połącz głośność dzwonka i powiadomień</string>
+  <string name="notification_volume_option_title">Głośność powiadomień</string>
   <!-- QuickSettings 4 columns -->
-  <string name="qs_four_columns_title">Show four tiles per row</string>
+  <string name="qs_four_columns_title">Pokaż cztery kafelki w jednym rzędzie</string>
   <!-- Restart System UI -->
-  <string name="restart_system_ui"> Restart SystemUI</string>
-  <string name="restart_system_ui_summary"> Restart SystemUI to apply statusbar changes</string>
-  <string name="restart_system_ui_wall_summary"> Restart SystemUI to apply/clear the wallpaper</string>
+  <string name="restart_system_ui"> Uruchom ponownie SystemUI</string>
+  <string name="restart_system_ui_summary"> Uruchom ponownie SystemUI aby zastosować zmiany w paski zadań</string>
+  <string name="restart_system_ui_wall_summary"> Uruchom ponownie SystemUI aby zastosować/wyczyścić tapetę</string>
 </resources>
