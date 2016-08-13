@@ -485,5 +485,11 @@
     <!-- Status bar icons -->
     <string name="status_bar_icon_blacklist_title">Status bar icons</string>
     <string name="status_bar_icon_blacklist_summary">Configure which icons are shown in the status bar</string>
+
+    <!-- SystemUI Tuner Parts -->
+     <string name="systemui_tuner_statusbar_title">Items</string>
+     <string name="systemui_tuner_statusbar_summary">Show/hide statusbar items</string>
+     <string name="systemui_tuner_qs_title">Quick settings</string>
+     <string name="systemui_tuner_qs_summary">Modify your tiles</string>
     
 </resources>
