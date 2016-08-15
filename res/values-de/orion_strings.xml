@@ -112,9 +112,7 @@
   <string name="battery2_summary">Ladestandsanzeige und Akkusymbol anpassen</string>
   <string name="status_bar_battery_style_title">Stil des Akkusymbols</string>
   <string name="status_bar_battery_style_icon_portrait">Symbol (Hochformat)</string>
-  <string name="status_bar_battery_style_icon_landscape">Symbol (Querformat)</string>
   <string name="status_bar_battery_style_circle">Kreis</string>
-  <string name="status_bar_battery_style_dotted_circle">Gepunkteter Kreis</string>
   <string name="status_bar_battery_style_text">Text</string>
   <string name="status_bar_battery_style_hidden">Versteckt</string>
   <!-- Battery percentage -->
@@ -226,26 +224,26 @@
   <string name="status_bar_show_weather_title">Wetter anzeigen</string>
   <string name="status_bar_show_weather_summary">Zeige Wetter in der Statusleiste</string>
   <!-- Lockscreen Weather settings -->
-  <string name="weather_show_weather_title">Show weather options</string>
-  <string name="weather_show_weather_summary">Display weather on lockscreen</string>
-  <string name="lockscreen_weather_fragment_title">Lockscreen weather</string>
-  <string name="lockscreen_weather_summary">Customize lockscreen weather elements</string>
-  <string name="status_bar_show_weather_title">Wetter anzeigen</string>
-  <string name="status_bar_show_weather_summary">Zeige Wetter in der Statusleiste</string>
-  <string name="weather_show_location_title">Show location</string>
-  <string name="weather_show_location_summary">Enable to show the location</string>
-  <string name="weather_condition_icon_title">Condition icon</string>
-  <string name="weather_condition_icon_dlg_title">Pick an icon for displaying the weather condition</string>
-  <string name="weather_condition_icon_monochrome_title">Monochrome</string>
-  <string name="weather_condition_icon_colored_title">Colored</string>
+  <string name="weather_show_weather_title">Wetter-Einstellungen anzeigen</string>
+  <string name="weather_show_weather_summary">Wetter auf Sperrbildschirm anzeigen</string>
+  <string name="lockscreen_weather_fragment_title">Sperrbildschirm-Wetter</string>
+  <string name="lockscreen_weather_summary">Lockscreen Wetterelemente anpassen</string>
+  <string name="status_bar_show_weather_title">Wetter in erweiteter Statusleiste</string>
+  <string name="status_bar_show_weather_summary">Zeige Wetter in erweiteter Statusleiste</string>
+  <string name="weather_show_location_title">Standort anzeigen</string>
+  <string name="weather_show_location_summary">Standort anzeigen</string>
+  <string name="weather_condition_icon_title">Zustandssymbol</string>
+  <string name="weather_condition_icon_dlg_title">Symbol für Wetterzustand auswählen</string>
+  <string name="weather_condition_icon_monochrome_title">Monochrom</string>
+  <string name="weather_condition_icon_colored_title">Farbig</string>
   <string name="weather_condition_icon_vclouds_title">VClouds</string>
-  <string name="weather_colorize_all_icons_title">Colorize all icons</string>
-  <string name="weather_colorize_all_icons_summary">Enable to colorize all icons, disable to colorize only the monochrome icons</string>
+  <string name="weather_colorize_all_icons_title">Alle Symbole einfärben</string>
+  <string name="weather_colorize_all_icons_summary">Aktivieren um alle Icons zu färben, deaktivieren um nur einfarbige Icons zu färben</string>
   <string name="colors_title">Farben</string>
-  <string name="icons_title">Icons</string>
+  <string name="icons_title">Symbole</string>
   <string name="text_title">Text</string>
   <string name="reset_lockscreen_weather">OK</string>
-  <string name="reset_values_message">Reset values?</string>
+  <string name="reset_values_message">Werte zurücksetzen?</string>
   <!-- Battery saver color -->
   <string name="battery_saver_color_title">Warnfarbe</string>
   <string name="battery_saver_color_summary">Orangene Status-/Navigationsleiste bei aktiviertem Energiesparmodus</string>
@@ -403,17 +401,27 @@
   <string name="statusbar_notifications_category">Benachrichtigungen</string>
   <!-- Quick settings disable on lockscreen -->
   <string name="block_on_secure_keyguard_title">Schnelleinstellungen deaktivieren</string>
-  <string name="block_on_secure_keyguard_summary">On secure lockscreen</string>
+  <string name="block_on_secure_keyguard_summary">Auf dem Sperrbildschirm werden keine Schnelleinstellungen angezeigt</string>
   <!-- Screenshot sound -->
-  <string name="screenshot_sound_title">Screenshot sound</string>
-  <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
+  <string name="screenshot_sound_title">Screenshot-Auslöserton</string>
+  <string name="screenshot_sound_summary">Spielt einen Ton beim erstellen eines Bildschirmfotos ab</string>
   <!-- Linked / unlinked notification volume -->
-  <string name="link_volume_option_title">Link ring and notification volumes</string>
+  <string name="link_volume_option_title">Verbinde Lautstärke für Klingelton und Benachrichtigungen</string>
   <string name="notification_volume_option_title">Lautstärke für Benachrichtigungen</string>
-  <!-- QuickSettings 4 columns -->
-  <string name="qs_four_columns_title">Vier Kacheln pro Zeile anzeigen</string>
   <!-- Restart System UI -->
   <string name="restart_system_ui">SystemUI neustarten</string>
-  <string name="restart_system_ui_summary"> Restart SystemUI to apply statusbar changes</string>
-  <string name="restart_system_ui_wall_summary"> Restart SystemUI to apply/clear the wallpaper</string>
+  <string name="restart_system_ui_summary"> Starte SystemUI für das festlegen der Änderungen an der Statusleiste neu</string>
+  <string name="restart_system_ui_wall_summary"> Starte SystemUI neu um den Hintergrund zu ändern oder zu löschen</string>
+  <!-- Camera sound switch -->
+  <string name="camera_sounds_title">Camera shutter sound</string>
+  <string name="camera_sounds_summary">Enable system camera shutter sound</string>
+  <string name="camera_sound_warning_dialog_text">Disabling the camera shutter sound is illegal in some areas! Please check the applicable law in your country</string>
+  <!-- Status bar icons -->
+  <string name="status_bar_icon_blacklist_title">Status bar icons</string>
+  <string name="status_bar_icon_blacklist_summary">Configure which icons are shown in the status bar</string>
+  <!-- SystemUI Tuner Parts -->
+  <string name="systemui_tuner_statusbar_title">Items</string>
+  <string name="systemui_tuner_statusbar_summary">Show/hide statusbar items</string>
+  <string name="systemui_tuner_qs_title">Quick settings</string>
+  <string name="systemui_tuner_qs_summary">Modify your tiles</string>
 </resources>
