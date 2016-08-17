@@ -49,7 +49,10 @@
   <string name="hardware_keys_appswitch_key_title">Recents button</string>
   <string name="volbtn_wake_device_title">Wake up device</string>
   <string name="volbtn_wake_device_summary">Pressing either volume button will wake your device</string>
-
+  <string name="keys_hwkeys_title">Navigation Keys</string>
+  <string name="keys_disable_hwkeys_title">Disable navigation keys</string> 
+  <string name="keys_disable_hwkeys_summary">Disable navigation bar keys completely</string>
+ 
     <!-- Hardware keys -->
     <string name="button_keys_title">Hardware Buttons</string>
     <string name="keys_bindings_title">Key actions</string>
@@ -544,4 +547,35 @@
      <string name="systemui_tuner_qs_title">Quick settings</string>
      <string name="systemui_tuner_qs_summary">Modify your tiles</string>
     
+    <!-- Profiles -->
+    <string name="profile_reset_title">Reset</string>
+    <string name="profiles_add">Add</string>
+    <string name="profile_choose_app">Choose app</string>
+    <string name="profile_applist_title">Apps</string>
+    <string name="picker_activities">Activities</string>
+    <string name="select_custom_app_title">Select custom app</string>
+    <string name="select_custom_activity_title">Select custom activity</string>
+
+    <!-- Key backlight -->
+    <string name="settings_reset_button">Reset</string>
+    <string name="button_backlight_title">Backlight</string>
+    <string name="button_backlight_enabled">Illuminate buttons</string>
+    <string name="keyboard_backlight_enabled">Illuminate keyboard</string>
+    <string name="button_backlight_seekbar_title">Button brightness</string>
+    <string name="keyboard_backlight_seekbar_title">Keyboard brightness</string>
+    <string name="backlight_timeout_title">Illumination timeout</string>
+    <string name="backlight_timeout_unlimited">Don\'t turn off</string>
+    <string name="backlight_summary_disabled">Disabled</string>
+    <string name="backlight_summary_enabled_with_timeout">Enabled for <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Enabled</string>
+    
+    <!-- Hardware keys and lights -->
+    <string name="hardware_keys_enable_title">Enable hardware keys</string>
+    <string name="hardware_keys_enable_summary">Enable/disable hardware keys</string>
+    <string name="hardware_keys_lights_enable_title">Hardware key lights settings</string>
+
+    <!-- Swap recents and back buttons -->
+    <string name="hardware_keys_app_switch_swap_button_title">Swap hw buttons</string>
+    <string name="hardware_keys_app_switch_swap_button_summary">Swap the order of recents and back buttons</string>    
+
 </resources>
