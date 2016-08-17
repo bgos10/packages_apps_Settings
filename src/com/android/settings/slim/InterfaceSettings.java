@@ -39,6 +39,7 @@ public class InterfaceSettings extends SettingsPreferenceFragment implements
     private static final String ONEPLUS_DOZE_PACKAGE_NAME="com.cyanogenmod.settings.doze";
     private PreferenceScreen gesture_settings;
     private PreferenceScreen notification_slider;
+    private PreferenceScreen Screenoff_gesture;
     
     @Override
     protected int getMetricsCategory() {
@@ -83,8 +84,18 @@ public class InterfaceSettings extends SettingsPreferenceFragment implements
         if(!showNotificationSlider) {
         	prefSet.removePreference(notification_slider);
 		}
-    }
-
+	
+	//check for ScreenOff Gestures
+        Screenoff_gesture = (PreferenceScreen) findPreference("Screenoff_gesture");
+        
+        boolean showScreenoffGesture = getResources().getBoolean(
+                com.android.internal.R.bool.config_showScreenoffGesture);
+                
+        if(!showScreenoffGesture) {
+        	prefSet.removePreference(Screenoff_gesture);
+		}
+	}
+	
     @Override
     public void onResume() {
         super.onResume();
