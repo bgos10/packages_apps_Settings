@@ -112,9 +112,7 @@
   <string name="battery2_summary">Personalizza le icone della batteria e della percentuale</string>
   <string name="status_bar_battery_style_title">Stile indicatore batteria</string>
   <string name="status_bar_battery_style_icon_portrait">Icona verticale</string>
-  <string name="status_bar_battery_style_icon_landscape">Icona orizzontale</string>
   <string name="status_bar_battery_style_circle">Circolare</string>
-  <string name="status_bar_battery_style_dotted_circle">Cerchio tratteggiato</string>
   <string name="status_bar_battery_style_text">Testo</string>
   <string name="status_bar_battery_style_hidden">Nascosto</string>
   <!-- Battery percentage -->
@@ -230,8 +228,8 @@
   <string name="weather_show_weather_summary">Visualizza meteo in schermata di blocco</string>
   <string name="lockscreen_weather_fragment_title">Meteo in schermata di blocco</string>
   <string name="lockscreen_weather_summary">Personalizza elementi meteo in schermata di blocco</string>
-  <string name="status_bar_show_weather_title">Visualizza meteo</string>
-  <string name="status_bar_show_weather_summary">Visualizza il meteo nell\'intestazione della barra di stato</string>
+  <string name="status_bar_show_weather_title">Meteo nella barra di stato estesa</string>
+  <string name="status_bar_show_weather_summary">Visualizza meteo di base nella barra di stato estesa</string>
   <string name="weather_show_location_title">Mostra posizione</string>
   <string name="weather_show_location_summary">Attiva per mostrare la posizione</string>
   <string name="weather_condition_icon_title">Icona condizione</string>
@@ -410,10 +408,20 @@
   <!-- Linked / unlinked notification volume -->
   <string name="link_volume_option_title">Collega volumi suoneria e notifica</string>
   <string name="notification_volume_option_title">Volume notifiche</string>
-  <!-- QuickSettings 4 columns -->
-  <string name="qs_four_columns_title">Mostra quattro caselle per riga</string>
   <!-- Restart System UI -->
   <string name="restart_system_ui"> Riavvia SystemUI</string>
   <string name="restart_system_ui_summary"> Riavvia SystemUI per applicare le modifiche alla barra di stato</string>
   <string name="restart_system_ui_wall_summary"> Riavvia SystemUI per applicare/eliminare l\'immagine di sfondo</string>
+  <!-- Camera sound switch -->
+  <string name="camera_sounds_title">Camera shutter sound</string>
+  <string name="camera_sounds_summary">Enable system camera shutter sound</string>
+  <string name="camera_sound_warning_dialog_text">Disabling the camera shutter sound is illegal in some areas! Please check the applicable law in your country</string>
+  <!-- Status bar icons -->
+  <string name="status_bar_icon_blacklist_title">Status bar icons</string>
+  <string name="status_bar_icon_blacklist_summary">Configure which icons are shown in the status bar</string>
+  <!-- SystemUI Tuner Parts -->
+  <string name="systemui_tuner_statusbar_title">Items</string>
+  <string name="systemui_tuner_statusbar_summary">Show/hide statusbar items</string>
+  <string name="systemui_tuner_qs_title">Quick settings</string>
+  <string name="systemui_tuner_qs_summary">Modify your tiles</string>
 </resources>

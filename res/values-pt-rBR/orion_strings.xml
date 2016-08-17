@@ -112,9 +112,7 @@
   <string name="battery2_summary">Personalizar os ícones e a percentagem da bateria</string>
   <string name="status_bar_battery_style_title">Estilo do estado da bateria</string>
   <string name="status_bar_battery_style_icon_portrait">Ícone retrato</string>
-  <string name="status_bar_battery_style_icon_landscape">Ícone em modo paisagem</string>
   <string name="status_bar_battery_style_circle">Círculo</string>
-  <string name="status_bar_battery_style_dotted_circle">Círculo pontilhado</string>
   <string name="status_bar_battery_style_text">Texto</string>
   <string name="status_bar_battery_style_hidden">Oculto</string>
   <!-- Battery percentage -->
@@ -230,8 +228,8 @@
   <string name="weather_show_weather_summary">Exposição de tempo na tela de bloqueio</string>
   <string name="lockscreen_weather_fragment_title">Tempo na tela de bloqueio</string>
   <string name="lockscreen_weather_summary">Personalizar elementos de tempo da tela de bloqueio</string>
-  <string name="status_bar_show_weather_title">Mostrar clima</string>
-  <string name="status_bar_show_weather_summary">Mostrar o tempo no cabeçalho da barra de status</string>
+  <string name="status_bar_show_weather_title">Tempo na área extendida da barra de status</string>
+  <string name="status_bar_show_weather_summary">Mostrar tempo básico na área estendida da barra de status</string>
   <string name="weather_show_location_title">Mostrar a localização</string>
   <string name="weather_show_location_summary">Habilitar para mostrar a localização</string>
   <string name="weather_condition_icon_title">Ícone de condição</string>
@@ -410,10 +408,20 @@
   <!-- Linked / unlinked notification volume -->
   <string name="link_volume_option_title">Unir volumes de toques e notificações</string>
   <string name="notification_volume_option_title">Volume de notificação</string>
-  <!-- QuickSettings 4 columns -->
-  <string name="qs_four_columns_title">Exibir quatro itens por linha</string>
   <!-- Restart System UI -->
   <string name="restart_system_ui"> Reiniciar SystemUI</string>
   <string name="restart_system_ui_summary"> Reiniciar o SystemUI para aplicar as alterações da barra de status</string>
   <string name="restart_system_ui_wall_summary"> Reiniciar o SystemUI para aplicar/remover o papel de parede</string>
+  <!-- Camera sound switch -->
+  <string name="camera_sounds_title">Camera shutter sound</string>
+  <string name="camera_sounds_summary">Enable system camera shutter sound</string>
+  <string name="camera_sound_warning_dialog_text">Disabling the camera shutter sound is illegal in some areas! Please check the applicable law in your country</string>
+  <!-- Status bar icons -->
+  <string name="status_bar_icon_blacklist_title">Status bar icons</string>
+  <string name="status_bar_icon_blacklist_summary">Configure which icons are shown in the status bar</string>
+  <!-- SystemUI Tuner Parts -->
+  <string name="systemui_tuner_statusbar_title">Items</string>
+  <string name="systemui_tuner_statusbar_summary">Show/hide statusbar items</string>
+  <string name="systemui_tuner_qs_title">Quick settings</string>
+  <string name="systemui_tuner_qs_summary">Modify your tiles</string>
 </resources>
