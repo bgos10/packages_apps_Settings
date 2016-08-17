@@ -36,6 +36,7 @@ public class InterfaceSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     private static final String MOTO_DOZE_PACKAGE_NAME="com.cyanogenmod.settings.device";
+    private static final String ONEPLUS_DOZE_PACKAGE_NAME="com.cyanogenmod.settings.doze";
     private PreferenceScreen gesture_settings;
     private PreferenceScreen notification_slider;
     
@@ -60,6 +61,16 @@ public class InterfaceSettings extends SettingsPreferenceFragment implements
                 com.android.internal.R.bool.config_showMotoDozeGestures);
         
         if (!showMotoDozeGestures) {
+            prefSet.removePreference(gesture_settings);
+        }
+        
+        //check for OnePlus doze
+        gesture_settings = (PreferenceScreen) findPreference("device_specific_gesture_settings");
+        
+        boolean showOnePlusDozeGestures = getResources().getBoolean(
+                com.android.internal.R.bool.config_showOnePlusDozeGestures);
+        
+        if (!showOnePlusDozeGestures) {
             prefSet.removePreference(gesture_settings);
         }
         
