@@ -142,7 +142,8 @@ public class NavbarSettings extends SettingsPreferenceFragment implements
         mMenuDisplayLocation.setEnabled(show
             && mNavBarMenuDisplayValue != 1);
         mStatusBarImeArrows.setEnabled(show);
-        Helpers.restartSystemUI();
+        if(!show)
+			Helpers.restartSystemUI();
     }
     
     @Override
