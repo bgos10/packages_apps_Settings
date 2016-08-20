@@ -601,4 +601,10 @@
     <string name="blurred_radius">Blur Radius</string>
     <string name="blurred_radius_summary">Amount of blur</string>
 
+	<!--QS Tiles -->
+    <string name="qs_main_tiles_title">Enlarge first row</string>	
+    <string name="qs_four_columns_summary">Change default tile count from 3 to 4 columns</string>	
+    <string name="qs_main_tiles_summary">Two main tiles on the first row</string>
+    <string name="qs_num_columns_title">Number of tiles per row</string>
+    <string name="qs_num_columns_showing">%1$s tiles per row showing</string>
 </resources>

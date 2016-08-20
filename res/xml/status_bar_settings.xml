@@ -90,6 +90,19 @@
         android:summary="@string/status_bar_show_weather_summary"
         android:defaultValue="true" />
 
+  <ListPreference
+            android:key="sysui_qs_num_columns"
+            android:title="@string/qs_num_columns_title"
+            android:entries="@array/qs_num_columns_entries"
+            android:entryValues="@array/qs_num_columns_values"
+			android:persistent="false" />
+			
+ <com.android.settings.slim.SystemSettingSwitchPreference
+            android:key="sysui_qs_main_tiles"
+            android:title="@string/qs_main_tiles_title"
+            android:summary="@string/qs_main_tiles_summary"
+            android:defaultValue="true" />            
+ 
     <SwitchPreference
         android:key="enable_task_manager"
         android:title="@string/enable_task_manager_title"

@@ -72,6 +72,7 @@ public class StatusBar extends SettingsPreferenceFragment implements OnPreferenc
 	private Preference restartUI;
 	
     private boolean mCheckPreferences;
+    private ListPreference mNumColumns;
     
     
     @Override
@@ -126,7 +127,15 @@ public class StatusBar extends SettingsPreferenceFragment implements OnPreferenc
             	return true;    		
         	}
          });
-        
+
+        mNumColumns = (ListPreference) findPreference("sysui_qs_num_columns");
+        int numColumns = Settings.Secure.getIntForUser(resolver,
+                Settings.Secure.QS_NUM_TILE_COLUMNS, getDefaultNumColums(),
+                UserHandle.USER_CURRENT);
+        mNumColumns.setValue(String.valueOf(numColumns));
+        updateNumColumnsSummary(numColumns);
+        mNumColumns.setOnPreferenceChangeListener(this);
+         
          setHasOptionsMenu(true);
          mCheckPreferences = true;
          return prefSet;
@@ -151,8 +160,13 @@ public class StatusBar extends SettingsPreferenceFragment implements OnPreferenc
          mCustomHeaderDefault.setSummary(mCustomHeaderDefault.getEntries()[index]);
          createCustomView();
              return true;
-          }
-          
+         } else if (preference == mNumColumns) {
+            int numColumns = Integer.valueOf((String) newValue);
+            Settings.Secure.putIntForUser(resolver, Settings.Secure.QS_NUM_TILE_COLUMNS,
+                    numColumns, UserHandle.USER_CURRENT);
+            updateNumColumnsSummary(numColumns);
+            return true;
+       	 }   
         return false;
     }
 
@@ -165,7 +179,26 @@ public class StatusBar extends SettingsPreferenceFragment implements OnPreferenc
         }
         return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
-   
+
+    private void updateNumColumnsSummary(int numColumns) {
+        String prefix = (String) mNumColumns.getEntries()[mNumColumns.findIndexOfValue(String
+                .valueOf(numColumns))];
+        mNumColumns.setSummary(getActivity().getResources().getString(R.string.qs_num_columns_showing, prefix));
+    }
+
+    private int getDefaultNumColums() {
+        try {
+            Resources res = getActivity().getPackageManager()
+                    .getResourcesForApplication("com.android.systemui");
+            int val = res.getInteger(res.getIdentifier("quick_settings_num_columns", "integer",
+                    "com.android.systemui")); // better not be larger than 5, that's as high as the
+                                              // list goes atm
+            return Math.max(1, val);
+        } catch (Exception e) {
+            return 3;
+        }
+    }
+    
    @Override
    public boolean onPreferenceClick(Preference pref) {
    			if(pref == restartUI) {
