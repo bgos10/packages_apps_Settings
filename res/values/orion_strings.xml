@@ -611,4 +611,7 @@
     <string name="qs_main_tiles_summary">Two main tiles on the first row</string>
     <string name="qs_num_columns_title">Number of tiles per row</string>
     <string name="qs_num_columns_showing">%1$s tiles per row showing</string>
+    
+    <!-- Double tap on navbar to sleep -->
+    <string name="double_tap_navbar_to_sleep">Double-tap on navbar to sleep</string>
 </resources>
