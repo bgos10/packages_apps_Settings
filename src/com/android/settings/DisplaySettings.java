@@ -85,6 +85,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String KEY_CAMERA_GESTURE = "camera_gesture";
     private static final String KEY_CAMERA_DOUBLE_TAP_POWER_GESTURE
             = "camera_double_tap_power_gesture";
+    private static final String KEY_PROXIMITY_WAKE = "proximity_on_wake";
 
     private static final String DASHBOARD_COLUMNS = "dashboard_columns";
     private static final String DASHBOARD_SWITCHES = "dashboard_switches";
@@ -113,6 +114,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private SwitchPreference mCameraDoubleTapPowerGesturePreference;
     private ListPreference mDashboardColumns;
     private ListPreference mDashboardSwitches;
+    private SwitchPreference mProximityCheckOnWakePreference;
 
 
     private ContentObserver mAccelerometerRotationObserver =
@@ -221,6 +223,16 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         final int currentNightMode = uiManager.getNightMode();
         mNightModePreference.setValue(String.valueOf(currentNightMode));
         mNightModePreference.setOnPreferenceChangeListener(this);
+        
+        mProximityCheckOnWakePreference = (SwitchPreference) findPreference(KEY_PROXIMITY_WAKE);
+        boolean proximityCheckOnWake = getResources().getBoolean(
+                com.android.internal.R.bool.config_proximityCheckOnWake);
+        if (!proximityCheckOnWake) {
+            if (mProximityCheckOnWakePreference != null) {
+                mWakeUpOptions.removePreference(mProximityCheckOnWakePreference);
+            }
+            Settings.System.putInt(resolver, Settings.System.PROXIMITY_ON_WAKE, 0);
+        }
     }
 
     private static boolean allowAllRotations(Context context) {
