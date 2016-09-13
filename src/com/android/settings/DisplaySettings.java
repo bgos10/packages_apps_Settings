@@ -85,6 +85,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String KEY_CAMERA_GESTURE = "camera_gesture";
     private static final String KEY_CAMERA_DOUBLE_TAP_POWER_GESTURE
             = "camera_double_tap_power_gesture";
+    private static final String KEY_PROXIMITY_WAKE = "proximity_on_wake";
 
     private static final String DASHBOARD_COLUMNS = "dashboard_columns";
     private static final String DASHBOARD_SWITCHES = "dashboard_switches";
@@ -113,6 +114,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private SwitchPreference mCameraDoubleTapPowerGesturePreference;
     private ListPreference mDashboardColumns;
     private ListPreference mDashboardSwitches;
+    private SwitchPreference mProximityCheckOnWakePreference;
 
 
     private ContentObserver mAccelerometerRotationObserver =
@@ -214,6 +216,13 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         } else {
             removePreference(KEY_DISPLAY_ROTATION);
         }
+        
+        if (isProximityCheckOnWakeAvailable(getResources())) {
+            mProximityCheckOnWakePreference = (SwitchPreference) findPreference(KEY_PROXIMITY_WAKE);
+            mProximityCheckOnWakePreference.setOnPreferenceChangeListener(this);
+        } else {
+            removePreference(KEY_PROXIMITY_WAKE);
+        }
 
         mNightModePreference = (ListPreference) findPreference(KEY_NIGHT_MODE);
         final UiModeManager uiManager = (UiModeManager) getSystemService(
@@ -260,6 +269,10 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static boolean isCameraDoubleTapPowerGestureAvailable(Resources res) {
         return res.getBoolean(
                 com.android.internal.R.bool.config_cameraDoubleTapPowerGestureEnabled);
+    }
+    
+    private static boolean isProximityCheckOnWakeAvailable(Resources res) {
+        return res.getBoolean(com.android.internal.R.bool.config_proximityCheckOnWake);
     }
 
     private void updateTimeoutPreferenceDescription(long currentTimeout) {
@@ -445,6 +458,12 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
                     getContentResolver(), CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED, 0);
             mCameraDoubleTapPowerGesturePreference.setChecked(value == 0);
         }
+        
+        // Update Proximity Check on wake if it is available.
+        if (mProximityCheckOnWakePreference != null) {
+            int value = Settings.Secure.getInt(getContentResolver(), PROXIMITY_ON_WAKE, 0);
+            mProximityCheckOnWakePreference.setChecked(value == 0);
+        }
     }
 
     private void updateScreenSaverSummary() {
@@ -609,6 +628,9 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
                     }
                     if (!isCameraDoubleTapPowerGestureAvailable(context.getResources())) {
                         result.add(KEY_CAMERA_DOUBLE_TAP_POWER_GESTURE);
+                    }
+                    if (!isProximityCheckOnWakeAvailable(context.getResources())) {
+                        result.add(KEY_PROXIMITY_WAKE);
                     }
                     return result;
                 }
